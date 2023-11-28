@@ -1,0 +1,20 @@
+﻿AnhQuoc_WPF_C2_B1
+
+
+winexe
+C#
+.cs
+C:\Users\quocl\OneDrive\Documents\Visual Studio 2015\Projects\AllProjects\Current-Doing-Project\AnhQuoc_WPF_C2_B1\AnhQuoc_WPF_C2_B1\obj\Release\
+AnhQuoc_WPF_C2_B1
+none
+false
+TRACE
+C:\Users\quocl\OneDrive\Documents\Visual Studio 2015\Projects\AllProjects\Current-Doing-Project\AnhQuoc_WPF_C2_B1\AnhQuoc_WPF_C2_B1\App.xaml
+17782073453
+
+106365793697
+13-1643599102
+MainWindow.xaml;UserControls\ucCreateInvoice.xaml;UserControls\ucCreateInvoiceDetails.xaml;UserControls\ucCreateReceiptDetails.xaml;UserControls\ucCreateReceipt.xaml;UserControls\ucDetailsByIdInvoice.xaml;UserControls\ucDetailsByIdReceipt.xaml;UserControls\ucListProduct.xaml;UserControls\ucInvoiceDetails.xaml;UserControls\ucProductInventoryStatusTable.xaml;UserControls\ucProductInventoryTable.xaml;UserControls\ucReceiptDetails.xaml;UserControls\ucInvoiceTable.xaml;UserControls\ucReceiptTable.xaml;Views\frmAdmin.xaml;Views\frmCashier.xaml;Views\frmLogin.xaml;
+
+True
+

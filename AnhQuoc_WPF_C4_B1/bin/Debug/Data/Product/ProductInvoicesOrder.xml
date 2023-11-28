@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProductInvoices Count="2" TotalQuantity="0">
+  <Products>
+    <Product>E3</Product>
+    <PreviousQuantity>11</PreviousQuantity>
+    <PreviousAmountInput>20900000</PreviousAmountInput>
+    <PreviousAmountOutput>30012400</PreviousAmountOutput>
+    <PreviousDate>30/07/2023 09:39</PreviousDate>
+    <RecentQuantity>10</RecentQuantity>
+    <RecentAmountInput>19000000</RecentAmountInput>
+    <RecentAmountOutput>27284000</RecentAmountOutput>
+    <RecentDate>15/08/2023 07:06</RecentDate>
+    <TotalQuantity>10</TotalQuantity>
+    <TotalAmountInput>19000000</TotalAmountInput>
+    <TotalAmountOutput>27284000</TotalAmountOutput>
+  </Products>
+  <Products>
+    <Product>E1</Product>
+    <PreviousQuantity>10</PreviousQuantity>
+    <PreviousAmountInput>16000000</PreviousAmountInput>
+    <PreviousAmountOutput>22976000</PreviousAmountOutput>
+    <PreviousDate>30/07/2023 09:38</PreviousDate>
+    <RecentQuantity>8</RecentQuantity>
+    <RecentAmountInput>12800000</RecentAmountInput>
+    <RecentAmountOutput>18380800</RecentAmountOutput>
+    <RecentDate>15/08/2023 07:06</RecentDate>
+    <TotalQuantity>8</TotalQuantity>
+    <TotalAmountInput>12800000</TotalAmountInput>
+    <TotalAmountOutput>18380800</TotalAmountOutput>
+  </Products>
+</ProductInvoices>

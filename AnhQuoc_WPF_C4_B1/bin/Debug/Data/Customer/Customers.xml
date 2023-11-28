@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Customers Count="2">
+  <Customer>
+    <IDCard>111</IDCard>
+    <Name>Tran A</Name>
+    <Phone>012333111</Phone>
+    <Point>0</Point>
+    <Card>None</Card>
+    <IsGuest>0</IsGuest>
+  </Customer>
+  <Customer>
+    <IDCard>222</IDCard>
+    <Name>Tran B</Name>
+    <Phone>033444222</Phone>
+    <Point>0</Point>
+    <Card>None</Card>
+    <IsGuest>0</IsGuest>
+  </Customer>
+</Customers>

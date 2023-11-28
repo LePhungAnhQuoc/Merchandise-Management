@@ -1,0 +1,31 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:AnhQuoc_WPF_C4_B1">
+
+    <!-- ListBox -->
+    <Style x:Key="listBoxGeneral" TargetType="ListBox">
+    </Style>
+    <Style x:Key="listBoxHorizontal" TargetType="ListBox" BasedOn="{StaticResource listBoxGeneral}">
+        <Setter Property="ItemContainerStyle">
+            <Setter.Value>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="FontSize" Value="14" />
+                    <Setter Property="Padding" Value="10 5" />
+                </Style>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="ItemsPanel">
+            <Setter.Value>
+                <ItemsPanelTemplate>
+                    <WrapPanel Background="Transparent" />
+                </ItemsPanelTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- ListBoxItem -->
+	<Style x:Key="listBoxItemGeneral" TargetType="ListBoxItem">
+        <!-- FontSize: 14 -->
+        <Setter Property="FontSize" Value="14" />
+    </Style>
+</ResourceDictionary>

@@ -1,0 +1,121 @@
+﻿<UserControl x:Class="AnhQuoc_WPF_C4_B1.ucCreateReceiptDetails"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AnhQuoc_WPF_C4_B1"
+             mc:Ignorable="d" 
+             d:DesignHeight="610" d:DesignWidth="800">
+    <StackPanel>
+        <Grid Margin="0 0 0 20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0">
+                <local:ucListProduct x:Name="ucListProduct"
+                                     HorizontalAlignment="Stretch"
+                                     DataGridHeight="200"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1"
+                        Margin="10 0 10 10"
+                        Height="auto"
+                        VerticalAlignment="Top">
+                <Label Grid.Row="0"
+                       Name="lblReceiptDetail"
+                       Style="{StaticResource lblHeader}"
+                       Margin="0 0 0 30"
+                       HorizontalAlignment="Center" VerticalAlignment="Center"
+                       Content="Receipt Detail Infomation"/>
+                <Grid Grid.Row="1"
+                      Margin="0 0 0 20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0"
+                           Style="{StaticResource lblStyle1}"
+                           Padding="5 5 20 5">Product:</Label>
+                    <Label Grid.Column="1"
+                           Name="lblProductSelected"
+                           Style="{StaticResource lblStyle1}"
+                           Padding="5"/>
+                </Grid>
+                <Grid Grid.Row="2"
+                      Name="gdQuantity">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0"
+                          Name="gdInputquantity">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="90"/>
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0"
+                               Style="{StaticResource lblStyle1}"
+                               Padding="5 5 20 5">Quantity:</Label>
+                        <TextBox Grid.Column="1"
+                                 Name="txtQuantity"
+                                 Style="{StaticResource txtStyle1}"
+                                 HorizontalAlignment="Stretch"
+                                 Padding="5"
+                                 Validation.ErrorTemplate="{StaticResource txtErrorTemplate3}">
+                            <TextBox.Text>
+                                <Binding Path="txtQuantityInput" UpdateSourceTrigger="PropertyChanged">
+                                    <Binding.ValidationRules>
+                                        <local:NumberRule/>
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </TextBox.Text>
+                        </TextBox>
+                    </Grid>
+                    <StackPanel Grid.Column="1"
+                                Margin="10 0 0 0"
+                                Orientation="Horizontal"
+                                HorizontalAlignment="Center">
+                        <Button Name="btnIncrease"
+                                Style="{StaticResource btnCircle}"
+                                Content="+"/>
+                        <Button Name="btnDecrease"
+                                Style="{StaticResource btnCircle}"
+                                Content="-"/>
+                        <Grid>
+                            <Button Name="btnConfirm"
+                                    Style="{StaticResource btnConfirm}"
+                                    Content="Confirm"/>
+                            <Button Name="btnUpdate"
+                                    Style="{StaticResource btnUpdate}"
+                                    Content="Update"
+                                    Visibility="Hidden"/>
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+                <StackPanel Grid.Row="3"
+                            Margin="0 55 0 0"
+                            Orientation="Horizontal"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Top">
+                    <Button Name="btnSave"
+                            Style="{StaticResource btnSave}"
+                            Content="Save"/>
+                    <Button Name="btnCancel"
+                            Style="{StaticResource btnCancel}"
+                            Content="Cancel"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+        <Border Grid.Column="1"
+                HorizontalAlignment="Stretch"
+                BorderBrush="Black"
+                BorderThickness="1"
+                CornerRadius="10">
+            <ScrollViewer Name="scrollDetails"
+                          Height="330"
+                          CanContentScroll="True"
+                          VerticalScrollBarVisibility="Auto">
+            </ScrollViewer>
+        </Border>
+    </StackPanel>
+</UserControl>

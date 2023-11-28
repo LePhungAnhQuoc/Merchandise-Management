@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Inventory TotalQuantity="66" TotalPriceInput="116400000" TotalPriceOutput="167150400">
+  <Products Count="2">
+    <Product>
+      <Product>E3</Product>
+      <Quantity>36</Quantity>
+      <TotalPriceInput>68400000</TotalPriceInput>
+      <TotalPriceOutput>98222400</TotalPriceOutput>
+    </Product>
+    <Product>
+      <Product>E1</Product>
+      <Quantity>30</Quantity>
+      <TotalPriceInput>48000000</TotalPriceInput>
+      <TotalPriceOutput>68928000</TotalPriceOutput>
+    </Product>
+  </Products>
+</Inventory>

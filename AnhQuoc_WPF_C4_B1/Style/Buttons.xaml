@@ -1,0 +1,117 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:AnhQuoc_WPF_C4_B1">
+
+    <Style x:Key="btnGeneral" TargetType="Button">
+        <Setter Property="Padding" Value="15 5" />
+        
+        <!-- FontSize: 14 -->
+        <Setter Property="FontSize" Value="14" />
+        
+        <Setter Property="Width" Value="80" />
+        <Setter Property="Height" Value="30" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+    </Style>
+
+    <Style x:Key="btnReset" TargetType="Button" BasedOn="{StaticResource btnGeneral}">
+        <Setter Property="Background" Value="Orange"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+
+    <Style x:Key="btnSave" TargetType="Button" BasedOn="{StaticResource btnGeneral}">
+        <Setter Property="Background" Value="#007bff"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+
+    <Style x:Key="btnCancel" TargetType="Button" BasedOn="{StaticResource btnGeneral}">
+        <Setter Property="Background" Value="#ffffff"/>
+        <Setter Property="Foreground" Value="Black"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="Button">
+					<Border Name="container"
+							BorderBrush="Black"
+							BorderThickness="1"
+							Background="{TemplateBinding Background}">
+                        <ContentPresenter VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                          HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"/>
+                    </Border>
+					<ControlTemplate.Triggers>
+						<Trigger Property="IsMouseOver" Value="true">
+							<Setter TargetName="container" Property="Background" Value="AliceBlue" />
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+    </Style>
+
+    <Style x:Key="btnCircle" TargetType="Button" BasedOn="{StaticResource btnGeneral}">
+        <Setter Property="Background" Value="#007bff"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="Width" Value="40"/>
+        <Setter Property="Padding" Value="0 0 0 10"/>
+    </Style>
+
+    <Style x:Key="btnConfirm" TargetType="Button" BasedOn="{StaticResource btnGeneral}">
+        <Setter Property="Background" Value="#007bff"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Tag" Value="Assets/Confirm-icon.png" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Name="container"
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            CornerRadius="0"
+                            Background="{TemplateBinding Background}">
+                        <ContentPresenter VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                          HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter TargetName="container" Property="Background" Value="AliceBlue" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="btnUpdate" TargetType="Button" BasedOn="{StaticResource btnConfirm}">
+        <Setter Property="Background" Value="Green" />
+    </Style>
+
+    <Style x:Key="btnDelete" TargetType="Button" BasedOn="{StaticResource btnGeneral}">
+        <Setter Property="Background" Value="Red"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+
+    <Style x:Key="btnDetails" TargetType="Button" BasedOn="{StaticResource btnGeneral}">
+        <Setter Property="Background" Value="#007bff"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+
+    <Style x:Key="btnSearch" TargetType="Button" BasedOn="{StaticResource btnGeneral}">
+        <Setter Property="Background" Value="#007bff"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+
+    <Style x:Key="btnClear" TargetType="Button" BasedOn="{StaticResource btnGeneral}">
+        <Setter Property="Background" Value="#007bff"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+
+    <Style x:Key="btnCreate" TargetType="Button" BasedOn="{StaticResource btnGeneral}">
+        <Setter Property="Background" Value="#007bff"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+    
+    <Style x:Key="btnBack" TargetType="Button" BasedOn="{StaticResource btnGeneral}">
+        <Setter Property="Background" Value="#007bff"/>
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+
+</ResourceDictionary>

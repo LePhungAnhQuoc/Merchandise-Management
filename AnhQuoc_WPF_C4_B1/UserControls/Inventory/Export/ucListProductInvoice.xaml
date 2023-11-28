@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="AnhQuoc_WPF_C4_B1.ucListProductInvoice"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AnhQuoc_WPF_C4_B1"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="1300">
+    <UserControl.Resources>
+        <local:NoteEmptyListConverter x:Key="NoteEmptyListConverter" />
+        <local:DateToNoneConverter x:Key="DateToNoneConverter" />
+    </UserControl.Resources>
+    <StackPanel>
+        <Label Name="lblHeaderUI"
+               Style="{StaticResource lblHeader}"
+               Margin="0 0 0 20"
+               Content="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=UserControl}, Path=lblHeader}" />
+        <!-- Product Categories -->
+        <Border BorderBrush="Black"
+                BorderThickness="0 0.5 0 0">
+            <StackPanel Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+                <ListBox Name="lbCategories"
+                         Style="{StaticResource listBoxHorizontal}"
+                         ItemsSource="{Binding Products}"
+                         HorizontalAlignment="Stretch"
+                         SelectedValuePath="Products"
+                         DisplayMemberPath="Category" />
+            </StackPanel>
+        </Border>
+        
+        <DataGrid Name="dgProducts"
+                  ItemsSource="{Binding ElementName=lbCategories, Path=SelectedValue}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="30"  Binding="{Binding Product.Id}" Header="Id"/>
+                <DataGridTextColumn Width="200"  Binding="{Binding Product.Name}" Header="Name"/>
+
+                <DataGridTextColumn Width="90" Binding="{Binding PreviousQuantity}" Header="Previous Qty"/>
+                <DataGridTextColumn Width="110" Binding="{Binding PreviousAmount.Out, StringFormat={}{0:N0} đ}" Header="Previous Amount"/>
+                <DataGridTextColumn Width="90" Binding="{Binding PreviousDate, Converter={StaticResource DateToNoneConverter}}" Header="Previous Date"/>
+
+                <DataGridTextColumn Width="90" Binding="{Binding RecentQuantity}" Header="Recent Qty"/>
+                <DataGridTextColumn Width="110" Binding="{Binding RecentAmount.Out, StringFormat={}{0:N0} đ}" Header="Recent Amount"/>
+                <DataGridTextColumn Width="90" Binding="{Binding RecentDate, Converter={StaticResource DateToNoneConverter}}" Header="Recent Date"/>
+
+                <DataGridTextColumn Width="90" Binding="{Binding TotalQuantity}" Header="Total Quantity"/>
+                <DataGridTextColumn Width="110" Binding="{Binding TotalPrice.Out, StringFormat={}{0:N0} đ}" Header="Total Amount"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </StackPanel>
+</UserControl>

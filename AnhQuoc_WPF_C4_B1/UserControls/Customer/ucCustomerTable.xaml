@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="AnhQuoc_WPF_C4_B1.ucCustomerTable"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AnhQuoc_WPF_C4_B1"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="500">
+    <UserControl.Resources>
+        <local:NoteEmptyListConverter x:Key="NoteEmptyListConverter" />
+    </UserControl.Resources>
+    <StackPanel>
+        <Label Name="lblHeaderUI"
+               Style="{StaticResource lblHeader}"
+               Margin="0 0 0 20"
+               Content="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=UserControl}, Path=lblHeader}" />
+        <DataGrid Name="dgCustomer">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="100"  Binding="{Binding IDCard}" Header="IDCard"/>
+                <DataGridTextColumn Width="*" Binding="{Binding Name}" Header="Name"/>
+                <DataGridTextColumn Width="100" Binding="{Binding Phone}" Header="Phone"/>
+                <DataGridTextColumn Width="100" Binding="{Binding Point, StringFormat={}{0:N0}}" Header="Point"/>
+                <DataGridTextColumn Width="100" Binding="{Binding Card}" Header="Card"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </StackPanel>
+</UserControl>

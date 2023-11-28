@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProductInventorysStatus Count="2" TotalQuantity="0">
+  <Products>
+    <Product>E3</Product>
+    <Previous>21</Previous>
+    <AmountInput>39900000</AmountInput>
+    <AmountOutput>57296400</AmountOutput>
+    <Date>10/08/2023 07:00</Date>
+    <Recent>15</Recent>
+    <AmountInput>28500000</AmountInput>
+    <AmountOutput>40926000</AmountOutput>
+    <Date>10/08/2023 07:12</Date>
+    <TotalQuantity>36</TotalQuantity>
+    <TotalPriceInput>68400000</TotalPriceInput>
+    <TotalPriceOutput>98222400</TotalPriceOutput>
+  </Products>
+  <Products>
+    <Product>E1</Product>
+    <Previous>10</Previous>
+    <AmountInput>16000000</AmountInput>
+    <AmountOutput>22976000</AmountOutput>
+    <Date>30/07/2023 09:38</Date>
+    <Recent>20</Recent>
+    <AmountInput>32000000</AmountInput>
+    <AmountOutput>45952000</AmountOutput>
+    <Date>30/07/2023 09:38</Date>
+    <TotalQuantity>30</TotalQuantity>
+    <TotalPriceInput>48000000</TotalPriceInput>
+    <TotalPriceOutput>68928000</TotalPriceOutput>
+  </Products>
+</ProductInventorysStatus>

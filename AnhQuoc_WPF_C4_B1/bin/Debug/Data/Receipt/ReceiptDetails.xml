@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Receipts Count="4">
+  <Receipt Id="PNK1">
+    <ReceiptDetailList>
+      <TotalQuantity>21</TotalQuantity>
+      <TotalPriceIn>36900000</TotalPriceIn>
+      <TotalPriceOut>52988400</TotalPriceOut>
+      <Details>
+        <Detail>
+          <Id>1</Id>
+          <IdReceipt>PNK1</IdReceipt>
+          <Product>E3</Product>
+          <Quantity>1</Quantity>
+          <TotalPriceInput>1900000</TotalPriceInput>
+          <TotalPriceOutput>2728400</TotalPriceOutput>
+          <Date>30/07/2023 09:38</Date>
+        </Detail>
+        <Detail>
+          <Id>2</Id>
+          <IdReceipt>PNK1</IdReceipt>
+          <Product>E3</Product>
+          <Quantity>10</Quantity>
+          <TotalPriceInput>19000000</TotalPriceInput>
+          <TotalPriceOutput>27284000</TotalPriceOutput>
+          <Date>30/07/2023 09:38</Date>
+        </Detail>
+        <Detail>
+          <Id>3</Id>
+          <IdReceipt>PNK1</IdReceipt>
+          <Product>E1</Product>
+          <Quantity>10</Quantity>
+          <TotalPriceInput>16000000</TotalPriceInput>
+          <TotalPriceOutput>22976000</TotalPriceOutput>
+          <Date>30/07/2023 09:38</Date>
+        </Detail>
+      </Details>
+    </ReceiptDetailList>
+  </Receipt>
+  <Receipt Id="PNK2">
+    <ReceiptDetailList>
+      <TotalQuantity>20</TotalQuantity>
+      <TotalPriceIn>32000000</TotalPriceIn>
+      <TotalPriceOut>45952000</TotalPriceOut>
+      <Details>
+        <Detail>
+          <Id>1</Id>
+          <IdReceipt>PNK2</IdReceipt>
+          <Product>E1</Product>
+          <Quantity>20</Quantity>
+          <TotalPriceInput>32000000</TotalPriceInput>
+          <TotalPriceOutput>45952000</TotalPriceOutput>
+          <Date>30/07/2023 09:38</Date>
+        </Detail>
+      </Details>
+    </ReceiptDetailList>
+  </Receipt>
+  <Receipt Id="PNK3">
+    <ReceiptDetailList>
+      <TotalQuantity>10</TotalQuantity>
+      <TotalPriceIn>19000000</TotalPriceIn>
+      <TotalPriceOut>27284000</TotalPriceOut>
+      <Details>
+        <Detail>
+          <Id>1</Id>
+          <IdReceipt>PNK3</IdReceipt>
+          <Product>E3</Product>
+          <Quantity>10</Quantity>
+          <TotalPriceInput>19000000</TotalPriceInput>
+          <TotalPriceOutput>27284000</TotalPriceOutput>
+          <Date>10/08/2023 07:00</Date>
+        </Detail>
+      </Details>
+    </ReceiptDetailList>
+  </Receipt>
+  <Receipt Id="PNK4">
+    <ReceiptDetailList>
+      <TotalQuantity>15</TotalQuantity>
+      <TotalPriceIn>28500000</TotalPriceIn>
+      <TotalPriceOut>40926000</TotalPriceOut>
+      <Details>
+        <Detail>
+          <Id>1</Id>
+          <IdReceipt>PNK4</IdReceipt>
+          <Product>E3</Product>
+          <Quantity>15</Quantity>
+          <TotalPriceInput>28500000</TotalPriceInput>
+          <TotalPriceOutput>40926000</TotalPriceOutput>
+          <Date>10/08/2023 07:12</Date>
+        </Detail>
+      </Details>
+    </ReceiptDetailList>
+  </Receipt>
+</Receipts>

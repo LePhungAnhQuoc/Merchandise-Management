@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Orders Count="6">
+  <Order Id="PBH1">
+    <OrderDetailList>
+      <TotalQuantity>11</TotalQuantity>
+      <TotalPriceIn>17900000</TotalPriceIn>
+      <TotalPriceOut>25704400</TotalPriceOut>
+      <Details>
+        <Detail>
+          <Id>1</Id>
+          <IdInvoice>PBH1</IdInvoice>
+          <Product>E3</Product>
+          <Quantity>1</Quantity>
+          <TempPriceInput>1900000</TempPriceInput>
+          <TempPriceOutput>2728400</TempPriceOutput>
+          <PercentDiscount>15</PercentDiscount>
+          <DiscountPrice>409260</DiscountPrice>
+          <TotalPriceInput>1900000</TotalPriceInput>
+          <TotalPriceOutput>2319140</TotalPriceOutput>
+          <Date>30/07/2023 09:41</Date>
+        </Detail>
+        <Detail>
+          <Id>2</Id>
+          <IdInvoice>PBH1</IdInvoice>
+          <Product>E1</Product>
+          <Quantity>10</Quantity>
+          <TempPriceInput>16000000</TempPriceInput>
+          <TempPriceOutput>22976000</TempPriceOutput>
+          <PercentDiscount>15</PercentDiscount>
+          <DiscountPrice>3446400</DiscountPrice>
+          <TotalPriceInput>16000000</TotalPriceInput>
+          <TotalPriceOutput>19529600</TotalPriceOutput>
+          <Date>30/07/2023 09:41</Date>
+        </Detail>
+      </Details>
+    </OrderDetailList>
+  </Order>
+  <Order Id="PBH2">
+    <OrderDetailList>
+      <TotalQuantity>1</TotalQuantity>
+      <TotalPriceIn>1900000</TotalPriceIn>
+      <TotalPriceOut>2728400</TotalPriceOut>
+      <Details>
+        <Detail>
+          <Id>1</Id>
+          <IdInvoice>PBH2</IdInvoice>
+          <Product>E3</Product>
+          <Quantity>1</Quantity>
+          <TempPriceInput>1900000</TempPriceInput>
+          <TempPriceOutput>2728400</TempPriceOutput>
+          <PercentDiscount>15</PercentDiscount>
+          <DiscountPrice>409260</DiscountPrice>
+          <TotalPriceInput>1900000</TotalPriceInput>
+          <TotalPriceOutput>2319140</TotalPriceOutput>
+          <Date>30/07/2023 09:41</Date>
+        </Detail>
+      </Details>
+    </OrderDetailList>
+  </Order>
+  <Order Id="PBH3">
+    <OrderDetailList>
+      <TotalQuantity>1</TotalQuantity>
+      <TotalPriceIn>1900000</TotalPriceIn>
+      <TotalPriceOut>2728400</TotalPriceOut>
+      <Details>
+        <Detail>
+          <Id>1</Id>
+          <IdInvoice>PBH3</IdInvoice>
+          <Product>E3</Product>
+          <Quantity>1</Quantity>
+          <TempPriceInput>1900000</TempPriceInput>
+          <TempPriceOutput>2728400</TempPriceOutput>
+          <PercentDiscount>15</PercentDiscount>
+          <DiscountPrice>409260</DiscountPrice>
+          <TotalPriceInput>1900000</TotalPriceInput>
+          <TotalPriceOutput>2319140</TotalPriceOutput>
+          <Date>30/07/2023 10:21</Date>
+        </Detail>
+      </Details>
+    </OrderDetailList>
+  </Order>
+  <Order Id="PBH4">
+    <OrderDetailList>
+      <TotalQuantity>1</TotalQuantity>
+      <TotalPriceIn>1900000</TotalPriceIn>
+      <TotalPriceOut>2728400</TotalPriceOut>
+      <Details>
+        <Detail>
+          <Id>1</Id>
+          <IdInvoice>PBH4</IdInvoice>
+          <Product>E3</Product>
+          <Quantity>1</Quantity>
+          <TempPriceInput>1900000</TempPriceInput>
+          <TempPriceOutput>2728400</TempPriceOutput>
+          <PercentDiscount>15</PercentDiscount>
+          <DiscountPrice>409260</DiscountPrice>
+          <TotalPriceInput>1900000</TotalPriceInput>
+          <TotalPriceOutput>2319140</TotalPriceOutput>
+          <Date>30/07/2023 10:32</Date>
+        </Detail>
+      </Details>
+    </OrderDetailList>
+  </Order>
+  <Order Id="PBH5">
+    <OrderDetailList>
+      <TotalQuantity>5</TotalQuantity>
+      <TotalPriceIn>9500000</TotalPriceIn>
+      <TotalPriceOut>13642000</TotalPriceOut>
+      <Details>
+        <Detail>
+          <Id>1</Id>
+          <IdInvoice>PBH5</IdInvoice>
+          <Product>E3</Product>
+          <Quantity>5</Quantity>
+          <TempPriceInput>9500000</TempPriceInput>
+          <TempPriceOutput>13642000</TempPriceOutput>
+          <PercentDiscount>15</PercentDiscount>
+          <DiscountPrice>2046300</DiscountPrice>
+          <TotalPriceInput>9500000</TotalPriceInput>
+          <TotalPriceOutput>11595700</TotalPriceOutput>
+          <Date>15/08/2023 06:59</Date>
+        </Detail>
+      </Details>
+    </OrderDetailList>
+  </Order>
+  <Order Id="PBH6">
+    <OrderDetailList>
+      <TotalQuantity>2</TotalQuantity>
+      <TotalPriceIn>3800000</TotalPriceIn>
+      <TotalPriceOut>5456800</TotalPriceOut>
+      <Details>
+        <Detail>
+          <Id>1</Id>
+          <IdInvoice>PBH6</IdInvoice>
+          <Product>E3</Product>
+          <Quantity>2</Quantity>
+          <TempPriceInput>3800000</TempPriceInput>
+          <TempPriceOutput>5456800</TempPriceOutput>
+          <PercentDiscount>15</PercentDiscount>
+          <DiscountPrice>818520</DiscountPrice>
+          <TotalPriceInput>3800000</TotalPriceInput>
+          <TotalPriceOutput>4638280</TotalPriceOutput>
+          <Date>15/08/2023 07:01</Date>
+        </Detail>
+      </Details>
+    </OrderDetailList>
+  </Order>
+</Orders>

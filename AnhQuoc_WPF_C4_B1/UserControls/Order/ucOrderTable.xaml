@@ -1,0 +1,70 @@
+﻿<UserControl x:Class="AnhQuoc_WPF_C4_B1.ucOrderTable"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AnhQuoc_WPF_C4_B1"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="500">
+    <UserControl.Resources>
+        <local:NoteEmptyListConverter x:Key="NoteEmptyListConverter" />
+    </UserControl.Resources>
+    <StackPanel>
+        <Label Name="lblHeaderUI"
+               Style="{StaticResource lblHeader}"
+               Margin="0 0 0 20"
+               Content="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=UserControl}, Path=lblHeader}" />
+        <!-- Fillter bar (Date) -->
+        <Border BorderThickness="1 1 1 0"
+                BorderBrush="Black"
+                Margin="0 20 0 0">
+            <Grid Margin="0 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <Label Style="{StaticResource lblStyle1}">Date:</Label>
+                <StackPanel Grid.Column="1"
+                            Background="White">
+                    <DatePicker Name="dateOrder"
+                                BorderThickness="1 0 0 0"
+                                Style="{StaticResource dateStyle1}"
+                                Padding="5"
+                                SelectedDate="{Binding SelectedDate}"/>
+                </StackPanel>
+                <StackPanel Grid.Column="2"
+                            Margin="0 0 0 0"
+                            Orientation="Horizontal"
+                            HorizontalAlignment="Center">
+                    <Button Name="btnClear"
+                            Style="{StaticResource btnClear}"
+                            Content="Clear"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <DataGrid Name="dgOrder"
+                  Height="600"
+                  RowHeight="50">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="80"  Binding="{Binding Id}" Header="Id"/>
+                <DataGridTextColumn Width="*" Binding="{Binding UserCreated.Name}" Header="UserCreate"/>
+                <DataGridTextColumn Width="*" Binding="{Binding Customer.Name}" Header="Customer"/>
+                <DataGridTextColumn Width="80" Binding="{Binding TotalQuantity}" Header="Total Quantity"/>
+                <DataGridTextColumn Width="100" Binding="{Binding TotalPrice.Out, StringFormat={}{0:N0} đ}" Header="Total Price"/>
+                <DataGridTextColumn Width="80" Binding="{Binding Date, StringFormat='{}{0:dd/MM/yyyy}'}" Header="Date"/>
+                <DataGridTemplateColumn Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Name="btnDetails"
+                                    Content="Details"
+                                    Style="{StaticResource btnDetails}"
+                                    Click="btnDetails_Click"></Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </StackPanel>
+</UserControl>

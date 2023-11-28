@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Invoices Count="3">
+  <Invoice>
+    <Id>PXK1</Id>
+    <UserCreated>stocker</UserCreated>
+    <TotalQuantity>20</TotalQuantity>
+    <TotalPriceInput>35000000</TotalPriceInput>
+    <TotalPriceOutput>50260000</TotalPriceOutput>
+    <Date>30/07/2023 09:38</Date>
+  </Invoice>
+  <Invoice>
+    <Id>PXK2</Id>
+    <UserCreated>stocker</UserCreated>
+    <TotalQuantity>1</TotalQuantity>
+    <TotalPriceInput>1900000</TotalPriceInput>
+    <TotalPriceOutput>2728400</TotalPriceOutput>
+    <Date>30/07/2023 09:38</Date>
+  </Invoice>
+  <Invoice>
+    <Id>PXK3</Id>
+    <UserCreated>stocker</UserCreated>
+    <TotalQuantity>18</TotalQuantity>
+    <TotalPriceInput>31800000</TotalPriceInput>
+    <TotalPriceOutput>45664800</TotalPriceOutput>
+    <Date>15/08/2023 07:06</Date>
+  </Invoice>
+</Invoices>

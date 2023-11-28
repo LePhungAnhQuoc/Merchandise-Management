@@ -1,0 +1,91 @@
+﻿<Window x:Class="AnhQuoc_WPF_C4_B1.frmCreateCustomer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AnhQuoc_WPF_C4_B1"
+        WindowStyle="None"
+        mc:Ignorable="d"
+        Height="315.657" Width="333.942"
+        Title="Register Customer Form" >
+    <StackPanel>
+        <Label Style="{StaticResource lblHeader}"
+               Padding="5" Margin="0 20 0 25">New Customer</Label>
+        <Grid Margin="20 0 20 25">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0"
+                   Style="{StaticResource lblStyle1}"
+                   Padding="5" Margin="0 0 0 0">ID card:</Label>
+            <TextBox Name="txtIdCard"
+                     Grid.Column="1"
+                     Style="{StaticResource txtStyle1}"
+                     Padding="5"
+                     Validation.ErrorTemplate="{StaticResource txtErrorTemplate3}">
+                <TextBox.Text>
+                    <Binding Path="txtIdCardInput" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <local:NumberRule/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+        </Grid>
+        <Grid Margin="20 0 20 25">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Label Style="{StaticResource lblStyle1}"
+                   Padding="5" Margin="0 0 0 0">Name:</Label>
+            <TextBox Name="txtName"
+                     Grid.Column="1"
+                     Style="{StaticResource txtStyle1}"
+                     Padding="5"
+                     Validation.ErrorTemplate="{StaticResource txtErrorTemplate3}">
+                <TextBox.Text>
+                    <Binding Path="txtNameInput" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <local:TextRule/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+        </Grid>
+        <Grid Margin="20 0 20 25">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Label Style="{StaticResource lblStyle1}"
+                   Padding="5" Margin="0 0 0 0">Phone:</Label>
+            <TextBox Name="txtPhone"
+                     Grid.Column="1"
+                     Style="{StaticResource txtStyle1}"
+                     Padding="5"
+                     Validation.ErrorTemplate="{StaticResource txtErrorTemplate3}">
+                <TextBox.Text>
+                    <Binding Path="txtPhoneInput" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <local:NumberRule/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+        </Grid>
+        <StackPanel Margin="0 10"
+                    VerticalAlignment="Bottom"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            <Button Name="btnCreate"
+                    Style="{StaticResource btnCreate}"
+                    Content="Create"/>
+            <Button Name="btnCancel"
+                    Style="{StaticResource btnCancel}"
+                    Margin="10 0 0 0"
+                    Content="Cancel"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

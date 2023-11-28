@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Accounts Count="2">
+  <Account>
+    <Id>1</Id>
+    <Username>admin</Username>
+    <Password>admin</Password>
+    <Role>1</Role>
+    <Status>true</Status>
+  </Account>
+  <Account>
+    <Id>2</Id>
+    <Username>stocker</Username>
+    <Password>stocker</Password>
+    <Role>2</Role>
+    <Status>true</Status>
+  </Account>
+  <Account>
+    <Id>3</Id>
+    <Username>cashier</Username>
+    <Password>cashier</Password>
+    <Role>3</Role>
+    <Status>true</Status>
+  </Account>
+</Accounts>

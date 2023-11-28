@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Receipts Count="4">
+  <Receipt>
+    <Id>PNK1</Id>
+    <UserCreated>stocker</UserCreated>
+    <TotalQuantity>21</TotalQuantity>
+    <TotalPriceInput>36900000</TotalPriceInput>
+    <TotalPriceOutput>52988400</TotalPriceOutput>
+    <Date>30/07/2023 09:38</Date>
+  </Receipt>
+  <Receipt>
+    <Id>PNK2</Id>
+    <UserCreated>stocker</UserCreated>
+    <TotalQuantity>20</TotalQuantity>
+    <TotalPriceInput>32000000</TotalPriceInput>
+    <TotalPriceOutput>45952000</TotalPriceOutput>
+    <Date>30/07/2023 09:38</Date>
+  </Receipt>
+  <Receipt>
+    <Id>PNK3</Id>
+    <UserCreated>stocker</UserCreated>
+    <TotalQuantity>10</TotalQuantity>
+    <TotalPriceInput>19000000</TotalPriceInput>
+    <TotalPriceOutput>27284000</TotalPriceOutput>
+    <Date>10/08/2023 06:59</Date>
+  </Receipt>
+  <Receipt>
+    <Id>PNK4</Id>
+    <UserCreated>stocker</UserCreated>
+    <TotalQuantity>15</TotalQuantity>
+    <TotalPriceInput>28500000</TotalPriceInput>
+    <TotalPriceOutput>40926000</TotalPriceOutput>
+    <Date>10/08/2023 07:12</Date>
+  </Receipt>
+</Receipts>

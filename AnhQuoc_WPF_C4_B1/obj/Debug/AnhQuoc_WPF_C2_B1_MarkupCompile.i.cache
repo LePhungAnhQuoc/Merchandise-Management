@@ -1,0 +1,20 @@
+﻿AnhQuoc_WPF_C2_B1
+
+
+winexe
+C#
+.cs
+C:\Users\quocl\OneDrive\Documents\Visual Studio 2015\Projects\AllProjects\Current-Doing-Project\AnhQuoc_C3_B1+\AnhQuoc_WPF_C2_B1\obj\Debug\
+AnhQuoc_WPF_C2_B1
+none
+false
+DEBUG;TRACE
+C:\Users\quocl\OneDrive\Documents\Visual Studio 2015\Projects\AllProjects\Current-Doing-Project\AnhQuoc_C3_B1+\AnhQuoc_WPF_C2_B1\App.xaml
+27-1877882558
+
+107149328798
+13-1643599102
+MainWindow.xaml;UserControls\Others\ucChangeInputPrice.xaml;UserControls\Order\ucCreateOrderDetails.xaml;UserControls\Order\ucCreateOrder.xaml;UserControls\Invoice\ucCreateInvoice.xaml;UserControls\Invoice\ucCreateInvoiceDetails.xaml;UserControls\Product\ucListProductInventory.xaml;UserControls\Product\ucListProductInvoice.xaml;UserControls\Receipt\ucCreateReceipt.xaml;UserControls\Receipt\ucCreateReceiptDetails.xaml;UserControls\Invoice\ucDetailsByIdInvoice.xaml;UserControls\Receipt\ucDetailsByIdReceipt.xaml;UserControls\Order\ucOrderDetails.xaml;UserControls\Invoice\ucInvoiceDetails.xaml;UserControls\Invoice\ucInvoiceTable.xaml;UserControls\Product\ucListProduct.xaml;UserControls\Inventory\ucProductInventoryStatusTable.xaml;UserControls\Inventory\ucProductInventoryTable.xaml;UserControls\Inventory\ucProductInvoiceTable.xaml;UserControls\Receipt\ucReceiptDetails.xaml;UserControls\Receipt\ucReceiptTable.xaml;Views\frmAdmin.xaml;Views\frmCashier.xaml;Views\frmCustomerInfomation.xaml;Views\frmCreateCustomer.xaml;Views\frmGetIDCardCustomer.xaml;Views\frmLogin.xaml;
+
+False
+

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Invoices Count="3">
+  <Invoice Id="PXK1">
+    <InvoiceDetailList>
+      <TotalQuantity>20</TotalQuantity>
+      <TotalPriceIn>35000000</TotalPriceIn>
+      <TotalPriceOut>50260000</TotalPriceOut>
+      <Details>
+        <Detail>
+          <Id>1</Id>
+          <IdInvoice>PXK1</IdInvoice>
+          <Product>E3</Product>
+          <Quantity>10</Quantity>
+          <TotalPriceInput>19000000</TotalPriceInput>
+          <TotalPriceOutput>27284000</TotalPriceOutput>
+          <Date>30/07/2023 09:38</Date>
+        </Detail>
+        <Detail>
+          <Id>2</Id>
+          <IdInvoice>PXK1</IdInvoice>
+          <Product>E1</Product>
+          <Quantity>10</Quantity>
+          <TotalPriceInput>16000000</TotalPriceInput>
+          <TotalPriceOutput>22976000</TotalPriceOutput>
+          <Date>30/07/2023 09:38</Date>
+        </Detail>
+      </Details>
+    </InvoiceDetailList>
+  </Invoice>
+  <Invoice Id="PXK2">
+    <InvoiceDetailList>
+      <TotalQuantity>1</TotalQuantity>
+      <TotalPriceIn>1900000</TotalPriceIn>
+      <TotalPriceOut>2728400</TotalPriceOut>
+      <Details>
+        <Detail>
+          <Id>1</Id>
+          <IdInvoice>PXK2</IdInvoice>
+          <Product>E3</Product>
+          <Quantity>1</Quantity>
+          <TotalPriceInput>1900000</TotalPriceInput>
+          <TotalPriceOutput>2728400</TotalPriceOutput>
+          <Date>30/07/2023 09:39</Date>
+        </Detail>
+      </Details>
+    </InvoiceDetailList>
+  </Invoice>
+  <Invoice Id="PXK3">
+    <InvoiceDetailList>
+      <TotalQuantity>18</TotalQuantity>
+      <TotalPriceIn>31800000</TotalPriceIn>
+      <TotalPriceOut>45664800</TotalPriceOut>
+      <Details>
+        <Detail>
+          <Id>1</Id>
+          <IdInvoice>PXK3</IdInvoice>
+          <Product>E3</Product>
+          <Quantity>10</Quantity>
+          <TotalPriceInput>19000000</TotalPriceInput>
+          <TotalPriceOutput>27284000</TotalPriceOutput>
+          <Date>15/08/2023 07:06</Date>
+        </Detail>
+        <Detail>
+          <Id>2</Id>
+          <IdInvoice>PXK3</IdInvoice>
+          <Product>E1</Product>
+          <Quantity>8</Quantity>
+          <TotalPriceInput>12800000</TotalPriceInput>
+          <TotalPriceOutput>18380800</TotalPriceOutput>
+          <Date>15/08/2023 07:06</Date>
+        </Detail>
+      </Details>
+    </InvoiceDetailList>
+  </Invoice>
+</Invoices>

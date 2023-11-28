@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Orders Count="6">
+  <Order>
+    <Id>PBH1</Id>
+    <UserCreated>cashier</UserCreated>
+    <Customer>
+      <IDCard>None</IDCard>
+      <Name>Guest 1</Name>
+      <Phone>None</Phone>
+      <Point>0</Point>
+      <Card>None</Card>
+      <IsGuest>1</IsGuest>
+    </Customer>
+    <TotalQuantity>11</TotalQuantity>
+    <TotalPriceInput>17900000</TotalPriceInput>
+    <TotalPriceOutput>25704400</TotalPriceOutput>
+    <Date>30/07/2023 09:40</Date>
+  </Order>
+  <Order>
+    <Id>PBH2</Id>
+    <UserCreated>cashier</UserCreated>
+    <Customer>
+      <IDCard>None</IDCard>
+      <Name>Guest 2</Name>
+      <Phone>None</Phone>
+      <Point>0</Point>
+      <Card>None</Card>
+      <IsGuest>1</IsGuest>
+    </Customer>
+    <TotalQuantity>1</TotalQuantity>
+    <TotalPriceInput>1900000</TotalPriceInput>
+    <TotalPriceOutput>2728400</TotalPriceOutput>
+    <Date>30/07/2023 09:41</Date>
+  </Order>
+  <Order>
+    <Id>PBH3</Id>
+    <UserCreated>cashier</UserCreated>
+    <Customer>
+      <IDCard>None</IDCard>
+      <Name>Guest 3</Name>
+      <Phone>None</Phone>
+      <Point>0</Point>
+      <Card>None</Card>
+      <IsGuest>1</IsGuest>
+    </Customer>
+    <TotalQuantity>1</TotalQuantity>
+    <TotalPriceInput>1900000</TotalPriceInput>
+    <TotalPriceOutput>2728400</TotalPriceOutput>
+    <Date>30/07/2023 10:21</Date>
+  </Order>
+  <Order>
+    <Id>PBH4</Id>
+    <UserCreated>cashier</UserCreated>
+    <Customer>
+      <IDCard>None</IDCard>
+      <Name>Guest 4</Name>
+      <Phone>None</Phone>
+      <Point>0</Point>
+      <Card>None</Card>
+      <IsGuest>1</IsGuest>
+    </Customer>
+    <TotalQuantity>1</TotalQuantity>
+    <TotalPriceInput>1900000</TotalPriceInput>
+    <TotalPriceOutput>2728400</TotalPriceOutput>
+    <Date>30/07/2023 10:32</Date>
+  </Order>
+  <Order>
+    <Id>PBH5</Id>
+    <UserCreated>cashier</UserCreated>
+    <Customer>
+      <IDCard>None</IDCard>
+      <Name>Guest 1</Name>
+      <Phone>None</Phone>
+      <Point>0</Point>
+      <Card>None</Card>
+      <IsGuest>1</IsGuest>
+    </Customer>
+    <TotalQuantity>5</TotalQuantity>
+    <TotalPriceInput>9500000</TotalPriceInput>
+    <TotalPriceOutput>13642000</TotalPriceOutput>
+    <Date>15/08/2023 06:58</Date>
+  </Order>
+  <Order>
+    <Id>PBH6</Id>
+    <UserCreated>cashier</UserCreated>
+    <Customer>
+      <IDCard>None</IDCard>
+      <Name>Guest 1</Name>
+      <Phone>None</Phone>
+      <Point>0</Point>
+      <Card>None</Card>
+      <IsGuest>1</IsGuest>
+    </Customer>
+    <TotalQuantity>2</TotalQuantity>
+    <TotalPriceInput>3800000</TotalPriceInput>
+    <TotalPriceOutput>5456800</TotalPriceOutput>
+    <Date>15/08/2023 07:01</Date>
+  </Order>
+</Orders>

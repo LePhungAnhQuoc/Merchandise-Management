@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Products>
+  <Electronic>
+    <Product Id="E1" Name="Loa SoundMax A-8900" Category="Electronic" Producer="SoundMax" PriceInput="1600000" PriceOutput="2297600" Warranty="12" ElectricPower="90" />
+    <Product Id="E2" Name="Tai nghe Sony Xperia Z1" Category="Electronic" Producer="Sony" PriceInput="2400000" PriceOutput="3446400" Warranty="10" ElectricPower="100" />
+    <Product Id="E3" Name="Nồi cơm điện" Category="Electronic" Producer="Safe electronic" PriceInput="1900000" PriceOutput="2728400" Warranty="12" ElectricPower="110" />
+    <Product Id="E4" Name="Tai nghe không dây" Category="Electronic" Producer="Thanh Hóa electronic" PriceInput="2000000" PriceOutput="2872000" Warranty="12" ElectricPower="120" />
+  </Electronic>
+  <Porcelain>
+    <Product Id="P1" Name="Chén sứ Tok" Category="Porcelain" Producer="Thanh Hoài" PriceInput="90000" PriceOutput="129240" Material="Đất sét" />
+    <Product Id="P2" Name="Bình hoa" Category="Porcelain" Producer="NSX Kiên Giang" PriceInput="120000" PriceOutput="172320" Material="Đất sét" />
+    <Product Id="P3" Name="Bình cổ Huế" Category="Porcelain" Producer="Hưng Phát" PriceInput="1000000" PriceOutput="1436000" Material="Đất sét" />
+  </Porcelain>
+  <Food>
+    <Product Id="F1" Name="Cà tím Đà Lạt" Category="Food" Producer="Việt Food" PriceInput="100000" PriceOutput="143600" MfgDate="09/12/2023 00:00" ExpDate="09/12/2024 00:00" />
+    <Product Id="F2" Name="Chuối Đà Lạt" Category="Food" Producer="Thực phẩm Việt" PriceInput="10000" PriceOutput="14360" MfgDate="08/01/2023 00:00" ExpDate="08/03/2023 00:00" />
+    <Product Id="F3" Name="Cà dĩa Đà Lạt" Category="Food" Producer="Clean Food" PriceInput="50000" PriceOutput="71800" MfgDate="10/12/2023 00:00" ExpDate="09/03/2024 00:00" />
+    <Product Id="F4" Name="Cà chua Đà Lạt" Category="Food" Producer="Thanh Hóa Food" PriceInput="12000" PriceOutput="17232" MfgDate="01/01/2023 00:00" ExpDate="01/03/2023 00:00" />
+  </Food>
+</Products>
