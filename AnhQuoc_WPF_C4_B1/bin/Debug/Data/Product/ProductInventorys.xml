@@ -1,15 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ProductInventorys Count="2" TotalQuantity="0">
+<ProductInventorys Count="3" TotalQuantity="0">
   <Products>
     <Product>E3</Product>
-    <Quantity>26</Quantity>
-    <TotalPriceInput>49400000</TotalPriceInput>
-    <TotalPriceOutput>70938400</TotalPriceOutput>
+    <Quantity>58</Quantity>
+    <TotalPriceInput>110200000</TotalPriceInput>
+    <TotalPriceOutput>158247200</TotalPriceOutput>
   </Products>
   <Products>
     <Product>E1</Product>
-    <Quantity>22</Quantity>
-    <TotalPriceInput>35200000</TotalPriceInput>
-    <TotalPriceOutput>50547200</TotalPriceOutput>
+    <Quantity>38</Quantity>
+    <TotalPriceInput>60800000</TotalPriceInput>
+    <TotalPriceOutput>87308800</TotalPriceOutput>
+  </Products>
+  <Products>
+    <Product>E4</Product>
+    <Quantity>7</Quantity>
+    <TotalPriceInput>14000000</TotalPriceInput>
+    <TotalPriceOutput>20104000</TotalPriceOutput>
   </Products>
 </ProductInventorys>

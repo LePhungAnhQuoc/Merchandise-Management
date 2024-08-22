@@ -2,6 +2,7 @@
 <Products>
   <Food>
     <Product Id="F2" Name="Chuối Đà Lạt" Category="Food" Producer="Thực phẩm Việt" PriceInput="10000" PriceOutput="14360" MfgDate="08/01/2023 00:00" ExpDate="08/03/2023 00:00" />
+    <Product Id="F3" Name="Cà dĩa Đà Lạt" Category="Food" Producer="Clean Food" PriceInput="50000" PriceOutput="71800" MfgDate="10/12/2023 00:00" ExpDate="09/03/2024 00:00" />
     <Product Id="F4" Name="Cà chua Đà Lạt" Category="Food" Producer="Thanh Hóa Food" PriceInput="12000" PriceOutput="17232" MfgDate="01/01/2023 00:00" ExpDate="01/03/2023 00:00" />
   </Food>
 </Products>

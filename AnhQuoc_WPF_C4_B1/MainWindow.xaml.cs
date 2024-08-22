@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -64,6 +65,10 @@ namespace AnhQuoc_WPF_C4_B1
 
         public MainWindow()
         {
+            CultureInfo currentCulture = new CultureInfo("vi-VN");
+            System.Threading.Thread.CurrentThread.CurrentCulture = currentCulture;
+            System.Threading.Thread.CurrentThread.CurrentUICulture = currentCulture;
+
             #region ClearAllFiles
             // Utilities.ClearAllFile();
             #endregion

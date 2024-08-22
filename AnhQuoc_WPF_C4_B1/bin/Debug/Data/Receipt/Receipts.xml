@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Receipts Count="4">
+<Receipts Count="6">
   <Receipt>
     <Id>PNK1</Id>
     <UserCreated>stocker</UserCreated>
@@ -31,5 +31,21 @@
     <TotalPriceInput>28500000</TotalPriceInput>
     <TotalPriceOutput>40926000</TotalPriceOutput>
     <Date>10/08/2023 07:12</Date>
+  </Receipt>
+  <Receipt>
+    <Id>PNK5</Id>
+    <UserCreated>stocker</UserCreated>
+    <TotalQuantity>19</TotalQuantity>
+    <TotalPriceInput>34800000</TotalPriceInput>
+    <TotalPriceOutput>49972800</TotalPriceOutput>
+    <Date>22/08/2024 13:31</Date>
+  </Receipt>
+  <Receipt>
+    <Id>PNK6</Id>
+    <UserCreated>stocker</UserCreated>
+    <TotalQuantity>18</TotalQuantity>
+    <TotalPriceInput>33800000</TotalPriceInput>
+    <TotalPriceOutput>48536800</TotalPriceOutput>
+    <Date>22/08/2024 13:33</Date>
   </Receipt>
 </Receipts>

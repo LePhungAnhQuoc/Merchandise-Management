@@ -1,17 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Inventory TotalQuantity="48" TotalPriceInput="84600000" TotalPriceOutput="121485600">
-  <Products Count="2">
+<Inventory TotalQuantity="103" TotalPriceInput="185000000" TotalPriceOutput="265660000">
+  <Products Count="3">
     <Product>
       <Product>E3</Product>
-      <Quantity>26</Quantity>
-      <TotalPriceInput>49400000</TotalPriceInput>
-      <TotalPriceOutput>70938400</TotalPriceOutput>
+      <Quantity>58</Quantity>
+      <TotalPriceInput>110200000</TotalPriceInput>
+      <TotalPriceOutput>158247200</TotalPriceOutput>
     </Product>
     <Product>
       <Product>E1</Product>
-      <Quantity>22</Quantity>
-      <TotalPriceInput>35200000</TotalPriceInput>
-      <TotalPriceOutput>50547200</TotalPriceOutput>
+      <Quantity>38</Quantity>
+      <TotalPriceInput>60800000</TotalPriceInput>
+      <TotalPriceOutput>87308800</TotalPriceOutput>
+    </Product>
+    <Product>
+      <Product>E4</Product>
+      <Quantity>7</Quantity>
+      <TotalPriceInput>14000000</TotalPriceInput>
+      <TotalPriceOutput>20104000</TotalPriceOutput>
     </Product>
   </Products>
 </Inventory>

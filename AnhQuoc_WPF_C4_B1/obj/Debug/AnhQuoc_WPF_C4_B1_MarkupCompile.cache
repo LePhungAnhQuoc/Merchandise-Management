@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\quocl\OneDrive\Documents\Visual Studio 2015\Projects\AllProjects\AnhQuoc_C4_B1+++\AnhQuoc_WPF_C4_B1\obj\Debug\
+C:\Users\quocl\OneDrive\Desktop\Merchandise-Management\AnhQuoc_WPF_C4_B1\obj\Debug\
 AnhQuoc_WPF_C4_B1
 none
 false
 DEBUG;TRACE
-C:\Users\quocl\OneDrive\Documents\Visual Studio 2015\Projects\AllProjects\AnhQuoc_C4_B1+++\AnhQuoc_WPF_C4_B1\App.xaml
-54-289661034
+C:\Users\quocl\OneDrive\Desktop\Merchandise-Management\AnhQuoc_WPF_C4_B1\App.xaml
+541938790886
 
-1331333416543
-14585397702
+133-51403127
+14-187372468
 Assets\icons.xaml;MainWindow.xaml;Style\DataGrid.xaml;Style\DatePickers.xaml;Style\TextBlocks.xaml;Style\ListBox.xaml;Style\Labels.xaml;Style\Buttons.xaml;Style\TextBox.xaml;Style\TreeView.xaml;UserControls\Customer\ucCustomerTable.xaml;UserControls\HomePage\ucHomePage.xaml;UserControls\Invoice\ucInvoiceDetailPoster.xaml;UserControls\Invoice\ucInvoiceDetailPosters.xaml;UserControls\Order\ucOrderDetailPosters.xaml;UserControls\Order\ucOrderDetailPoster.xaml;UserControls\Receipt\ucReceiptDetailPoster.xaml;UserControls\HomePage\ucHomePoster.xaml;UserControls\Order\ucDetailsByIdOrder.xaml;UserControls\Order\ucOrderTable.xaml;UserControls\Product\ucChangeInputPrice.xaml;UserControls\Order\ucCreateOrderDetails.xaml;UserControls\Order\ucCreateOrder.xaml;UserControls\Invoice\ucCreateInvoice.xaml;UserControls\Invoice\ucCreateInvoiceDetails.xaml;UserControls\Inventory\Import\ucListProductInventoryStatus.xaml;UserControls\Inventory\Import\ucListProductInventory.xaml;UserControls\Inventory\Export\ucListProductInvoiceGeneral.xaml;UserControls\Inventory\Export\ucListProductInvoice.xaml;UserControls\Receipt\ucCreateReceipt.xaml;UserControls\Receipt\ucCreateReceiptDetails.xaml;UserControls\Invoice\ucDetailsByIdInvoice.xaml;UserControls\Receipt\ucDetailsByIdReceipt.xaml;UserControls\Order\ucOrderDetails.xaml;UserControls\Invoice\ucInvoiceDetails.xaml;UserControls\Invoice\ucInvoiceTable.xaml;UserControls\Product\ucListProduct.xaml;UserControls\Receipt\ucReceiptDetailPosters.xaml;UserControls\Receipt\ucReceiptDetails.xaml;UserControls\Receipt\ucReceiptTable.xaml;UserControls\Revenue\ucProductInvoiceRevenue.xaml;UserControls\Revenue\ucOrderRevenueTable.xaml;UserControls\Others\ucPage.xaml;Views\Forms\frmOrderGeneral.xaml;Views\Forms\frmOrder.xaml;Views\Forms\frmInvoice.xaml;Views\Forms\frmReceipt.xaml;Views\UserPages\frmAdmin.xaml;Views\UserPages\frmStocker.xaml;Views\UserPages\frmCashier.xaml;Views\Forms\frmCustomerInfomation.xaml;Views\Forms\frmCreateCustomer.xaml;Views\Forms\frmGetIDCardCustomer.xaml;Views\Forms\frmLogin.xaml;
 
 False

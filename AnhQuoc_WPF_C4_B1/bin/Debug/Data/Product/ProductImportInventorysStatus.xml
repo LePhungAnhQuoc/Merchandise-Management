@@ -1,31 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ProductInventorysStatus Count="2" TotalQuantity="0">
+<ProductInventorysStatus Count="3" TotalQuantity="0">
   <Products>
     <Product>E3</Product>
-    <Previous>21</Previous>
-    <AmountInput>39900000</AmountInput>
-    <AmountOutput>57296400</AmountOutput>
-    <Date>10/08/2023 07:00</Date>
-    <Recent>15</Recent>
-    <AmountInput>28500000</AmountInput>
-    <AmountOutput>40926000</AmountOutput>
-    <Date>10/08/2023 07:12</Date>
-    <TotalQuantity>36</TotalQuantity>
-    <TotalPriceInput>68400000</TotalPriceInput>
-    <TotalPriceOutput>98222400</TotalPriceOutput>
+    <Previous>48</Previous>
+    <AmountInput>91200000</AmountInput>
+    <AmountOutput>130963200</AmountOutput>
+    <Date>22/08/2024 13:32</Date>
+    <Recent>10</Recent>
+    <AmountInput>19000000</AmountInput>
+    <AmountOutput>27284000</AmountOutput>
+    <Date>22/08/2024 13:33</Date>
+    <TotalQuantity>58</TotalQuantity>
+    <TotalPriceInput>110200000</TotalPriceInput>
+    <TotalPriceOutput>158247200</TotalPriceOutput>
   </Products>
   <Products>
     <Product>E1</Product>
-    <Previous>10</Previous>
-    <AmountInput>16000000</AmountInput>
-    <AmountOutput>22976000</AmountOutput>
-    <Date>30/07/2023 09:38</Date>
-    <Recent>20</Recent>
-    <AmountInput>32000000</AmountInput>
-    <AmountOutput>45952000</AmountOutput>
-    <Date>30/07/2023 09:38</Date>
-    <TotalQuantity>30</TotalQuantity>
-    <TotalPriceInput>48000000</TotalPriceInput>
-    <TotalPriceOutput>68928000</TotalPriceOutput>
+    <Previous>35</Previous>
+    <AmountInput>56000000</AmountInput>
+    <AmountOutput>80416000</AmountOutput>
+    <Date>22/08/2024 13:32</Date>
+    <Recent>3</Recent>
+    <AmountInput>4800000</AmountInput>
+    <AmountOutput>6892800</AmountOutput>
+    <Date>22/08/2024 13:33</Date>
+    <TotalQuantity>38</TotalQuantity>
+    <TotalPriceInput>60800000</TotalPriceInput>
+    <TotalPriceOutput>87308800</TotalPriceOutput>
+  </Products>
+  <Products>
+    <Product>E4</Product>
+    <Previous>2</Previous>
+    <AmountInput>4000000</AmountInput>
+    <AmountOutput>5744000</AmountOutput>
+    <Date>22/08/2024 13:32</Date>
+    <Recent>5</Recent>
+    <AmountInput>10000000</AmountInput>
+    <AmountOutput>14360000</AmountOutput>
+    <Date>22/08/2024 13:34</Date>
+    <TotalQuantity>7</TotalQuantity>
+    <TotalPriceInput>14000000</TotalPriceInput>
+    <TotalPriceOutput>20104000</TotalPriceOutput>
   </Products>
 </ProductInventorysStatus>

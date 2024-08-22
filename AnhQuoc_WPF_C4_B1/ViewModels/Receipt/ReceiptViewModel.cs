@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
+using Microsoft.SqlServer.Server;
 
 namespace AnhQuoc_WPF_C4_B1
 {
@@ -207,7 +209,8 @@ namespace AnhQuoc_WPF_C4_B1
             newItem.TotalPrice.Out = Convert.ToDouble(nodeTemp.InnerText);
 
             nodeTemp = nodeTemp.NextSibling;
-            newItem.Date = Convert.ToDateTime(nodeTemp.InnerText);
+            newItem.Date = DateTime.Parse(nodeTemp.InnerText);
+
             return newItem;
         }
 
