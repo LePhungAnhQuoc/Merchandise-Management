@@ -1,5 +1,5 @@
 Accounts: 3 accounts
 
-admin - admin
-stocker - stocker
-cashier - cashier
+1. admin - admin
+2. stocker - stocker
+3. cashier - cashier
